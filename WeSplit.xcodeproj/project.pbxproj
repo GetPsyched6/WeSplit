@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		81574AF72E50C9D40044DDCD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 81574AF62E50C9C40044DDCD /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		81574ACC2E4FB1AC0044DDCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		81574ABE2E4FB1AA0044DDCD /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81574ACB2E4FB1AC0044DDCD /* WeSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81574AD52E4FB1AC0044DDCD /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81574AF62E50C9C40044DDCD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		81574AB52E4FB1AA0044DDCD = {
 			isa = PBXGroup;
 			children = (
+				81574AF62E50C9C40044DDCD /* README.md */,
 				81574AC02E4FB1AA0044DDCD /* WeSplit */,
 				81574ACE2E4FB1AC0044DDCD /* WeSplitTests */,
 				81574AD82E4FB1AC0044DDCD /* WeSplitUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81574AF72E50C9D40044DDCD /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
